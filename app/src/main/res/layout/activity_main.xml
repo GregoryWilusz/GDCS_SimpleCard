@@ -74,7 +74,8 @@
             android:paddingBottom="5dp"
             android:paddingLeft="16dp"
             android:paddingTop="15dp"
-            android:text="@string/telNo" />
+            android:text="@string/telNo"
+            android:autoLink="phone"/>
 
         <ImageView
             android:id="@+id/International"
@@ -97,7 +98,8 @@
             android:paddingTop="15dp"
             android:text="@string/www"
             android:textAlignment="center"
-            android:textStyle="italic" />
+            android:textStyle="italic"
+            android:autoLink="web"/>
 
         <ImageView
             android:id="@+id/Location"
@@ -118,7 +120,8 @@
             android:layout_toRightOf="@+id/Location"
             android:paddingLeft="16dp"
             android:paddingTop="15dp"
-            android:text="@string/address" />
+            android:text="@string/address"
+            android:autoLink="map"/>
 
     </RelativeLayout>
 </ScrollView>
