@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/Image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/Header"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/androidudacityteacher" />
+
+        <TextView
+            android:id="@+id/Header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:paddingBottom="10dp"
+            android:text="@string/header"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/Home"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_below="@id/Image"
+            android:layout_marginTop="35dp"
+            android:paddingLeft="16dp"
+            android:src="@drawable/home" />
+
+        <TextView
+            android:id="@+id/Company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/Home"
+            android:layout_below="@+id/Image"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@+id/Home"
+            android:paddingLeft="16dp"
+            android:paddingTop="9dp"
+            android:text="@string/company"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/Call"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_below="@id/Home"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="16dp"
+            android:src="@drawable/phone_call" />
+
+        <TextView
+            android:id="@+id/telNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/Call"
+            android:layout_below="@+id/Company"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/Call"
+            android:paddingBottom="5dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="15dp"
+            android:text="@string/telNo" />
+
+        <ImageView
+            android:id="@+id/International"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_below="@id/Call"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="16dp"
+            android:src="@drawable/international" />
+
+        <TextView
+            android:id="@+id/More"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/International"
+            android:layout_below="@+id/telNumber"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/International"
+            android:paddingLeft="16dp"
+            android:paddingTop="15dp"
+            android:text="@string/www"
+            android:textAlignment="center"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/Location"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_below="@id/International"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="16dp"
+            android:src="@drawable/location" />
+
+        <TextView
+            android:id="@+id/Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/Location"
+            android:layout_below="@id/More"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/Location"
+            android:paddingLeft="16dp"
+            android:paddingTop="15dp"
+            android:text="@string/address" />
+
+    </RelativeLayout>
+</ScrollView>

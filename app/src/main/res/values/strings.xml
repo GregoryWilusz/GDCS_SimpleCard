@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hello Android</string>
+    <string name="header">Create your professional Android App with us!</string>
+    <string name="company">Udacity</string>
+    <string name="telNo">650-555-5555</string>
+    <string name="www">www.udacity.com</string>
+    <string name="address">2465 Latham St, Mountain View, CA 94043</string>
+</resources>
